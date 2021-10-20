@@ -11,7 +11,8 @@ FROM athlete_information, athlete_names, games, events
 WHERE athlete_information.name_id = athlete_names.id AND
 athlete_information.games_id = games.id AND 
 athlete_information.event_id = events.id AND
-athlete_names.full_name LIKE 'Gregory Efthimios "Greg" Louganis' 
+athlete_information.medal NOT LIKE 'NA' AND
+athlete_names.full_name LIKE 'Gregory Efthimios (Greg) Louganis'
 ORDER BY games.year;
 
 
