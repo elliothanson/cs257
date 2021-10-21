@@ -101,9 +101,7 @@ def process_athlete_name(name_to_process, current_name_dictionary, file):
             name_to_process = name_to_process[:k] + '(' + name_to_process[k+1:]
         elif '"' in name_to_process[k] and name_to_process.count('"') == 1:
                 name_to_process = name_to_process[:k] + ')' + name_to_process[k+1:]
-                
-        #Create Last and first names (if line includes - then figure out before or after, go from there)
-                
+                                
     if name_to_process not in current_name_dictionary: #the name is new
         proper_name_id = len(current_name_dictionary) + 1 #creates a new id
         current_name_dictionary.update({name_to_process:proper_name_id}) 

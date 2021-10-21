@@ -19,8 +19,8 @@ CREATE TABLE athlete_names(
 CREATE TABLE games(
     id INTEGER,
     game_name text,
-    season text,
     year text,
+    season text,
     city text
 );
 

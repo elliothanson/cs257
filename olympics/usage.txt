@@ -1,0 +1,20 @@
+Authors:
+Elliot Hanson
+
+Name:
+python3 olympics.py -- searches a database of olympians
+
+Synopsis:
+python3 olympics.py [-h] | [--NOC_athletes NOC] | [--NOC_gold_medals NOC] | [--games_information YEAR] 
+
+Description:
+  python3 olympic.py has 3 main uses (+ a usage statement command), each of which send queries to
+  the olympics database and displays a list of relevant data.
+
+  --NOC_athletes       takes in an NOC abbreviation and lists the names of all the athletes from that region
+  
+  --NOC_gold_medals    takes in an NOC abbreviation and lists the number of gold medals awarded to that region
+  
+  --games_information  takes in a year and lists the season and location of the olympic game(s) of that year
+
+  -h -? --help         returns the usage statement
