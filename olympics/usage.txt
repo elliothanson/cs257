@@ -15,6 +15,6 @@ Description:
   
   --NOC_gold_medals    takes in an NOC abbreviation and lists the number of gold medals awarded to that region
   
-  --games_information  takes in a year and lists the season and location of the olympic game(s) of that year
+  --games_information  takes in a year and lists the season and location of the olympic game(s) in that year
 
   -h -? --help         returns the usage statement

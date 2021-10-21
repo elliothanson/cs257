@@ -1,6 +1,6 @@
 '''
    olympics.py
-   Elliot Hanson 10/20/2021
+   Elliot Hanson, 10/20/2021
 '''
 
 import argparse
@@ -16,7 +16,7 @@ def display_usage():
 
 def display_NOC_athletes(cursor):
     '''
-    Prints out information on athletes who competed for a particular NOC.
+    Prints out the names of athletes who competed for a particular NOC.
     For example:
     |              Full Name              |
       Aarno Aksel (Arno) Almqvist
@@ -113,7 +113,7 @@ def main():
                     athlete_information.country_id = countries.id
                     GROUP BY countries.NOC_region
                     ORDER BY COUNT(athlete_information.id) DESC;
-                '''
+                    '''
             cursor.execute(query)
         
         except Exception as e:
