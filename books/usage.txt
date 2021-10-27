@@ -1,0 +1,37 @@
+Authors:
+Elliot Hanson and Avery Hall
+
+Name:
+python3 books.py -- parses a .csv file of book data
+
+Synopsis:
+python3 books.py -t  TITLE [-n|-y]
+python3 books.py -a  AUTHOR
+python3 books.py -r  [-s START] [-e END]
+python3 books.py -h
+
+Description:
+  python3 books.py has 3 main uses (+ a usage statement command), each of which parses
+	books1.csv in a given manner (searching by title, searching by author, or searching by
+	range) and returns a list of relevant data.
+
+  -t --title    takes in a string and returns a list of book titles that contain the given
+                 string (case-insensitive, titles sorted alphabetically by default)
+
+      -n --name    used in conjunction with --title, will return list of book titles sorted
+                    alphabetically
+      -y --year    used in conjunction with --title, will return list of book titles sorted
+                    by publication year
+
+  -a --author   takes in a string and returns a list of authors whose names contain the given
+                 string, and for each author a list of their books (ordered alphabetically by
+                 surname, ties are broken by given name)
+
+  -r --range    takes in a range of years (using -s and -e flags; see below) and returns a list
+                 of books published between those years (inclusive, books ordered by publication
+                 year)
+
+  -s --start_yr    indicates desired starting year for --range
+  -e --end_yr      indicates desired ending year for --range
+
+  -h -? --help     returns the usage statement
