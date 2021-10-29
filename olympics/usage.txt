@@ -13,7 +13,7 @@ Description:
 
   --NOC_athletes       takes in an NOC abbreviation and lists the names of all the athletes from that region
   
-  --NOC_gold_medals    takes in an NOC abbreviation and lists the number of gold medals awarded to that region
+  --NOC_gold_medals    displays the gold medal count of all NOC's in descending order
   
   --games_information  takes in a year and lists the season and location of the olympic game(s) in that year
 
