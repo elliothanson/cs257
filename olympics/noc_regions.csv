@@ -1,4 +1,3 @@
-NOC,region,notes
 AFG,Afghanistan,
 AHO,Curacao,Netherlands Antilles
 ALB,Albania,
@@ -98,9 +97,9 @@ IRL,Ireland,
 IRQ,Iraq,
 ISL,Iceland,
 ISR,Israel,
-ISV,"Virgin Islands, US",Virgin Islands
+ISV,Virgin Islands US,Virgin Islands
 ITA,Italy,
-IVB,"Virgin Islands, British",
+IVB,Virgin Islands British,
 JAM,Jamaica,
 JOR,Jordan,
 JPN,Japan,
